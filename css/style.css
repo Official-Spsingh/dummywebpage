@@ -1,0 +1,137 @@
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 800px;
+    height: auto;
+    
+}
+.navbar{
+    width: 800px;
+    height: 80px;
+    background:black;
+}
+.navbar .logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.navbar .profile-pic img{
+    width: 60px;
+    height: 60px;
+    margin-top: 9px;
+    margin-left: 65px;
+    
+}
+.navbar .logo{
+    float: left;
+    width: 20%;
+    
+}
+.navbar .profile-pic{
+    float: left;
+    width: 20%;
+
+
+    
+}
+.navbar .nav-menu{
+    
+    float: left;
+    
+    font-size: 25px;
+    width: 60%;
+    padding-top: 2px;
+    
+    
+}
+.content .middle-section p{
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: white;
+}
+.content .middle-section blockquote{
+   
+    font-size: 21px;
+    font-family:georgia;
+    line-height: 1.5rem;
+    color: white;
+}
+.content .middle-section header{
+   
+    font-size: 30px;
+    font-family:georgia;
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid deepskyblue
+}
+
+.navbar .nav-menu ul li, .footer .nav-menu ul li{
+    
+    display: inline;
+    color: rgb(200,200,200);
+    align-content: center;
+     margin-right: 25px;
+    
+}
+.content{
+    min-height: 480px;
+    margin-bottom: 0px;
+}
+.content .end-section{
+    width: 200px;
+    float: left;
+    background:rgba(0,0,0,0.5);
+    min-height:inherit;
+    
+    
+}
+.content .middle-section{
+    width: 400px;
+    float: left;
+    background:rgba(0,0,0,0.7);
+    min-height: inherit;
+    
+}
+.content .end-section::after{
+    
+    clear: both;
+    display: table;
+    
+}
+.content .middle-section::after{
+    
+    clear: both;
+    display: table;
+    
+}
+
+.footer .nav-menu{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+  padding-top: 13px;
+    width: 50%;
+    
+}
+.footer .copyright{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+     padding-top: 13px;
+    width: 50%;
+    color: white;
+    
+}
+.footer{
+    width: 800px;
+    min-height: 80px;
+    background:black;
+    
+    
+}
